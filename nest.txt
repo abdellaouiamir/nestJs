@@ -1,0 +1,15 @@
+
+nest new .
+nest g module auth
+nest g service auth
+nest g controller auth
+nest g resource auth
+
+
+npm install @nestjs/typeorm typeorm pg @nestjs/config
+npm i --save class-validator class-transformer
+
+
+npm install --save @nestjs/passport passport 
+npm install --save passport-local passport-jwt
+npm install --save-dev @types/passport-jwt @types/passport-local
